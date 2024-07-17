@@ -4,8 +4,68 @@ import React from 'react'
 
 
 function Toolbar() {
+
+const myinfo = [{
+  image: `https://pigmentgallery.es/wp-content/uploads/2022/05/RG_GEMS-X_2022_152x152-cm_Mixed-media.-Reverse-painting-on-Plexiglas.jpg`,
+  
+
+  subtitle:[
+      {
+          subtitle:'Artists'
+      },
+   
+  ],
+  title:[
+    {
+        title:'Rosa Galindo'
+    },
+   
+],
+
+
+},
+{
+  image: `https://pigmentgallery.es/wp-content/uploads/2022/05/RG_GEMS-X_2022_152x152-cm_Mixed-media.-Reverse-painting-on-Plexiglas.jpg`,
+  
+
+  subtitle:[
+      {
+          subtitle:'Artists'
+      },
+   
+  ],
+  title:[
+    {
+        title:'Rosa Galindo'
+    },
+   
+],
+
+
+},
+{
+  image: `https://pigmentgallery.es/wp-content/uploads/2022/05/RG_GEMS-X_2022_152x152-cm_Mixed-media.-Reverse-painting-on-Plexiglas.jpg`,
+  
+
+  subtitle:[
+      {
+          subtitle:'Artists'
+      },
+   
+  ],
+  title:[
+    {
+        title:'Rosa Galindo'
+    },
+   
+],
+
+
+}
+
+];
   return (
-    <div className=' grid gap-16 w-full h-fit   p-0 z-10'>
+    <div className=' grid gap-16 w-full h-fit p-0 z-10'>
       <div class="shadow-lg fixed top-0 z-40 bg-white w-full">
         <div class="flex  gap-10 flex-row h-24 justify-between  text-black p-5 s-2 items-center ">
 
@@ -64,7 +124,52 @@ function Toolbar() {
 
         </div>
       </div>
-      <div className='bg-[#f0eded] border-t-2 h-[450px]   '>
+
+      <div className='h-fit '>
+        <div className='grid gap-6 w-10/12 mx-auto'>
+          <div className='text-6xl'>Meet the artists</div>
+          <div  className='w-10/12 grid gap-6 text-[18px]'>
+          <div >Our line of work, consisting of contemporary artists, includes promising young talents and more established artists from the Spanish and international scene.</div>
+          <div>His careful selection, the result of the eclectic taste of the founder, starts from a modern figuration and goes into other currents where we can find works by artists heirs of American abstraction, material informalism or abstract geometries.</div>
+          </div>
+
+          <div className='grid grid-cols-3 gap-2  h-fit  mt-10'>
+            {
+                                
+                  myinfo.map((val, ind) =>{  
+                    return (
+                        <div class=''>
+                            <div className=''>
+                            <img className='h-[210px] w-[360px]' src={val.image} />
+                            </div>
+                            <div className=''>{
+                                val?.subtitle.map((item,ind)=>{
+                                  console.log(item)
+                                  return <div className='text-[18px]  text-gray-500 '>{item.subtitle}</div>
+                              
+                              })}</div>
+                              <div className=''>{
+                                val?.title.map((item,ind)=>{
+                                  console.log(item)
+                                  return <div className='text-2xl font-serif'>{item.title}</div>
+                                  
+                              })}</div>
+                        </div>
+                    )
+                })
+  
+            }
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div className='bg-[#f0eded] border-t-2 h-[450px]   '> 
         <div className=' grid grid-row-2 gap-24  h-fit w-10/12 mx-auto mt-10 '>
           <div className='flex gap-14'>
             <div className='grid  justify-between items-center '>
@@ -127,9 +232,9 @@ function Toolbar() {
               </div>
             </div>
           </div>
-          <div className=' flex gap-3 ml-36 border-t-2 w-[837px] border-black'>
+          <div className=' flex gap-3 ml-44 border-t-2 w-[770px] border-black'>
 
-            <div className='font-semibold '>PIGMENT GALLERY © 2022 | Privacy Policy | Cookie Policy | Formulated clauses | Terms and conditions of sale	</div>
+            <div className=' font-thin'>PIGMENT GALLERY © 2022 | Privacy Policy | Cookie Policy | Formulated clauses | Terms and conditions of sale	</div>
 
 
           </div>
