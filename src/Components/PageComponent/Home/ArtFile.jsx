@@ -158,7 +158,6 @@ const ArtFile = () => {
         },
         {
             image: `https://pigmentgallery.es/wp-content/uploads/2022/05/AB_AB680_2021_130x130-cm_Acrylic-on-old-linen_IT.jpg`,
-
             subtitle: [
                 {
                     subtitle: "Artists",
@@ -169,35 +168,7 @@ const ArtFile = () => {
                     title: "Anke Blaue",
                 },
             ],
-        },
-        {
-            image: `https://pigmentgallery.es/wp-content/uploads/2022/05/AB_AB680_2021_130x130-cm_Acrylic-on-old-linen_IT.jpg`,
-
-            subtitle: [
-                {
-                    subtitle: "Artists",
-                },
-            ],
-            title: [
-                {
-                    title: "Anke Blaue",
-                },
-            ],
-        },
-        {
-            image: `https://pigmentgallery.es/wp-content/uploads/2022/05/AB_AB680_2021_130x130-cm_Acrylic-on-old-linen_IT.jpg`,
-
-            subtitle: [
-                {
-                    subtitle: "Artists",
-                },
-            ],
-            title: [
-                {
-                    title: "Anke Blaue",
-                },
-            ],
-        },
+        },     
     ];
   return (
     <div className="h-fit ">

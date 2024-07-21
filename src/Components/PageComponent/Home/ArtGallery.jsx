@@ -2,11 +2,11 @@ import React from 'react'
 
 function ArtGallery() {
   return (
-    <div className="flex flex-col justify-between items-center h-fit p-3 ">
+    <div className="flex flex-col justify-between items-center h-fit mt-10 ">
     <div className="text-5xl  font-serif">
       Contemporary art gallery in Barcelona
     </div>
-    <div className="text-[23px] p-3 w-8/12 mt-6 mx-auto text-center">
+    <div className="text-[23px] p-3 w-8/12  mx-auto text-center">
       Pigment Gallery was founded in Barcelona in 2016 by Ferran Josa with
       the intention of connecting with an audience sensitive to the changes
       taking place in the art world and the world in general

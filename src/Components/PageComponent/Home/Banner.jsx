@@ -5,7 +5,7 @@ function Banner() {
     <div className="grid grid-colsh-[500px] relative  w-screen border-red-500 mt-24 ">
         <div className=" h-full  bg-green-500 ">
           <img
-            className="w-full  h-[600px]"
+            className="w-full  h-fit"
             src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW91cGpiY2o0Y2YzMHM1ZHhzdG96b3lsc3dveW5uNHRoYW5qaXdxcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xqklsTVVXhPa/giphy.webp"
           />
         </div>
