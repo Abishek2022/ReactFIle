@@ -31,7 +31,7 @@ function Toolbar() {
           </Link >
           <div class="flex gap-5 items-center text-[15px] justify-between  font-serif cursor-pointer ">
             <Link to={'/about'}>ABOUT US</Link>
-            <div>ARTISTS</div>
+            <Link to={'/art'}>ARTISTS</Link>
             <div>EXHIBITIONS</div>
             <div>EXHIBITIONS</div>
             <div>VIRTUSL TOUR</div>

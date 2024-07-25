@@ -16,11 +16,12 @@ function Current() {
             </div>
             <div>- Exhibition</div>
             <div className="text-3xl font-semibold w-9/12">
-                Un lugar sin ruido by Diego Benéitez{" "}
+                Un lugar sin ruido by Diego Benéitez
             </div>
             <div> 26 de June de 2024 - 2 de August de 2024 </div>
         </div>
-        <div className="flex ml-80  h-10 w-4/12 border-b-2 border-black gap-3">
+        <div className="flex ml-80  h-10 w-4/12  border-black gap-3">
+        <div className='border-b-2 border-black flex'>
             <div className="font-semibold text-[18px]">See all exhibitions</div>
             <div className="">
                 <svg
@@ -38,6 +39,7 @@ function Current() {
                         d="M5 12h14m-6 6l6-6m-6-6l6 6"
                     />
                 </svg>
+            </div>
             </div>
         </div>
     </div>

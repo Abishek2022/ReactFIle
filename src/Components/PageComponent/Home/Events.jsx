@@ -56,7 +56,8 @@ const Events = () => {
                             Art fair
                         </div>
                     </div>
-                    <div className="flex ml-[400px]  h-10 w-[160px] border-b-2 border-black gap-3">
+                    <div className="flex ml-[400px]  h-10 w-[160px] gap-3">
+                        <div className='flex border-b-2 border-black'>
                         <div className="font-semibold text-[15px]">See All Art fairs</div>
                         <div className="">
                             <svg
@@ -74,6 +75,7 @@ const Events = () => {
                                     d="M5 12h14m-6 6l6-6m-6-6l6 6"
                                 />
                             </svg>
+                        </div>
                         </div>
                     </div>
                 </div>
