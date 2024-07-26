@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
     return (
@@ -31,9 +31,9 @@ const Footer = () => {
                             Subscribe to our Newsletter
                         </div>
                     </div>
-                    
-                    <div className="grid grid-cols-4 w-full bg-red-500 ">
-                        <div className="grid gap-5  bg-green-500  w-44">
+
+                    <div className="grid grid-cols-4 w-full ">
+                        <div className="grid gap-5  w-44">
                             <div className="text-3xl font-serif">Sections</div>
                             <div className="grid font-serif  gap-2 ">
                                 <div>Artists</div>
@@ -44,9 +44,9 @@ const Footer = () => {
                                 <div>Offline</div>
                             </div>
                         </div>
-                        <div className="grid grid-cols-3 h-fit gap-64 w-full border-2 border-black">
-                            <div className="grid  gap-5 h-fit bg-green-500">
-                                <div className="text-3xl font-serif w-full">News & Media</div>
+                        <div className="grid grid-cols-3 h-fit gap-64 w-[650px]">
+                            <div className="grid  gap-5 h-fit">
+                                <div className="flex text-3xl font-serif w-full">News & Media</div>
                                 <div className="grid font-serif  gap-2  ">
                                     <div>The Gallery</div>
                                     <div>Virtual Tour</div>
@@ -118,8 +118,7 @@ const Footer = () => {
                                 </div>
                             </div>
 
-
-                            <div className="grid gap-5  h-24  w-full bg-green-500">
+                            <div className="grid gap-5  h-24  w-ful">
                                 <div className="text-3xl font-serif w-56">Sobre Nosotros</div>
                                 <div className="grid font-serif  gap-2 ">
                                     <div>Gallery in Barcelona</div>
@@ -197,20 +196,18 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
                 <div className="w-full h-fit flex justify-center  ">
-
-                    <div className=" font-thin border-t-2 border-gray-500">
-                        PIGMENT GALLERY © 2022 | Privacy Policy | Cookie Policy |
-                        Formulated clauses | Terms and conditions of sale
+                    <div className=" font-thin border-t-2">
+                        PIGMENT GALLERY © 2022 | Privacy Policy | Cookie Policy | Formulated
+                        clauses | Terms and conditions of sale
                     </div>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

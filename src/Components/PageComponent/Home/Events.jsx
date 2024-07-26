@@ -81,7 +81,7 @@ const Events = () => {
                 </div>
 
                 <div className="grid  gap-14">
-                    {fairsinfo.map((val, ind) => {
+                    { fairsinfo.map((val, ind) => {
                         return (
                             <div className="flex gap-44 ">
                                 <div className="h-ftt ">
