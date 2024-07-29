@@ -2,7 +2,7 @@ import React from 'react'
 
 function ArtGallery() {
   return (
-    <div className="flex flex-col justify-between items-center h-fit mt-10 ">
+    <div className="flex flex-col justify-between items-center h-fit mt-10 py-24">
     <div className="text-5xl  font-serif">
       Contemporary art gallery in Barcelona
     </div>

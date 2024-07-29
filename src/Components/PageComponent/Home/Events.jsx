@@ -48,7 +48,7 @@ const Events = () => {
        
     ];
     return (
-        <div className="bg-[#f8f8f8]  h-fit">
+        <div className="bg-[#f8f8f8] py-10  h-fit">
             <div className="grid gap-16 w-10/12 mx-auto ">
                 <div className=" grid grid-cols-2 h-fit mt-24">
                     <div className="grid gap-5 ">
@@ -83,9 +83,9 @@ const Events = () => {
                 <div className="grid  gap-14">
                     { fairsinfo.map((val, ind) => {
                         return (
-                            <div className="flex gap-44 ">
-                                <div className="h-ftt ">
-                                            <div className=' grid w-full '>
+                            <div className="grid grid-cols-12 gap-10 ">
+                                <div className=" col-span-2  grid grid-cols-2 h-ftt ">
+                                            <div className=' grid w-full h-fit gap-3'>
                                                 <div className=' gap-4 flex'>
                                                     <div className=' w-full h-full text-6xl   text-purple-400 '>{val.day}</div>
                                                     <div className=' w-full h-full items-center mt-10 -ml-3 font-semibold  '>{val.month}</div>
@@ -96,11 +96,11 @@ const Events = () => {
                                             </div>
                                        
                                 </div>
-                                <div className=" flex flex-cols-2 mt-3 gap-16 ">
-                                    <div>
+                                <div className=" col-span-9 grid grid-cols-7  mt-3 gap-16 w-full ">
+                                    <div className='col-span-2'>
                                         <img className="w-[210px] h-[180px] " src={val.images} />
                                     </div>
-                                    <div className="grid h-[150px] ">
+                                    <div className=" col-span-5 grid h-[150px] ">
                                         {val?.tittle.map((item, ind) => {
                                             console.log(item);
                                             return (

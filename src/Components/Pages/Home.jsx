@@ -18,7 +18,7 @@ function Home() {
             <ArtFile />
             <Events />
           </div>
-            <div className='bg-red-500  fixed top-[101px] -z-10 left-0 w-full h-[110px]'>
+            <div className='bg-red-500  fixed top-[101px] -z-10 left-0 w-full overflow-hidden h-[1000px]'>
                 <img src='https://www.giffywalls.com/blog/wp-content/uploads/2023/01/mountain-wallpaper-for-walls-2048x1016.jpg'/>
 
             </div>

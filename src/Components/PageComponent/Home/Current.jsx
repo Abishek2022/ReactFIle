@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Current() {
+    
   return (
     <div className="bg-[#f8f8f8] border-t-2 h-[720px]">
     <div className=" grid grid-cols-2  h-fit w-10/12 mx-auto mt-24">

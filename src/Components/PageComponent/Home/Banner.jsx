@@ -2,7 +2,7 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div className="grid grid-colsh-[500px] relative  w-screen border-red-500 mt-24 ">
+    <div className="grid grid-colsh-[500px] relative  w-screen border-red-500 mt-24  ">
         <div className=" h-full  bg-green-500 ">
           <img
             className="w-full  h-fit"
